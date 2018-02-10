@@ -1,3 +1,43 @@
+/*
+primary: #ff4081;
+p-light: light #ff79ff;
+p-dark: #c60055;
+secondary: #e676e6;
+s- light: #e676e6;
+s-dark: #00b248
+*/
+
 body {
-background: black;
+background-color: #ff4081;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;   
+}
+
+h1 {
+    font-size: 48px   
+}
+
+li {
+    display:inline-block
+}
+
+a {
+    font-size: 36px;
+}
+
+/* header */
+header li {
+    margin: 0 10px;
+}
+
+header li:first-of-type {
+margin-left:0;
+}
+/* footer syles */
+footer a {
+    font-size: 64px;
 }
